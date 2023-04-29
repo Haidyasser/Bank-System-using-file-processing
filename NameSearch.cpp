@@ -1,6 +1,6 @@
 #include "main.h"
 // Display all records having the same name
-void account::searchForName(char name[])
+int account::searchForName(char name[])
 {
     fstream file;
     file.open("project.txt", ios::in);
@@ -16,7 +16,11 @@ void account::searchForName(char name[])
             ok = true;
         }
     }
-    if (!ok)
-        cout << "No accounts found\n";
     file.close();
+    if(!ok)
+    {
+        cout << "No accounts found\n";
+        return 0;
+    }
+    return 1;
 }

@@ -1,5 +1,4 @@
 #include "main.h"
-using namespace std;
 
 //edit records by id
 void account::modify_account()
