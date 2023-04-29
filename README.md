@@ -1,7 +1,7 @@
 # Bank-System-using-file-processing
 ## To compile this project use this command:
 ```
-gcc *.cpp -o bank
+g++ *.cpp -o bank
 ```
 ## To run this project, use this command:
 ```
