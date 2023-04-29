@@ -25,10 +25,11 @@ public:
     void display_accounts();
     void search(char[]);
     void delete_account();
-    void dep(int, account*) ;
     void modify_account();
-    void deposit(int);
-    void searchForName(char[]);
+    int searchForName(char[]);
+    void dep(int , int );
+    void withdraw(int , int );
+    void deposit_withdraw(int , int );
 };
 
 #endif
