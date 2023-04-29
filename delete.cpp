@@ -15,8 +15,13 @@ void account :: delete_account()
     cout << "Enter the name you want to delete the account for ";
     cin >> str;
     int found = searchForName(str);
-    if(found == 0)
+    if(found == 0){
+        myfile.close();
+        temp.close();
+        remove("Temp.txt");
+        
         return;
+    }
     cout << "Enter the id you want to delete the account for ";
     cin >> id;
     if(myfile.is_open())
