@@ -26,11 +26,11 @@
 - UML Diagram
 
 ## UML Diagram
-![UML Diagram](files/file_project.pdf)
+[file_project.pdf](https://github.com/Haidyasser/Bank-System-using-file-processing/files/11522111/file_project.pdf)
 
 ## Video Demo (Python)
-[![Video](files/Bank%20system%20main.png)](files/Bank%20system%20main.mp4)
+https://github.com/Haidyasser/Bank-System-using-file-processing/assets/99363484/5761013d-93d6-4457-8498-ce768327a26b
 
 ## Our Team
-- [Haidy Yasser](github.com/haidyasser)
-- [Nourhan Wael](github.com/Nourhan_Wael)
+- [Haidy Yasser](https://github.com/Haidyasser)
+- [Nourhan Wael]
